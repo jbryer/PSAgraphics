@@ -1,0 +1,40 @@
+Package: PSAgraphics
+Version: 2.1.2
+Date: 2022-6-09
+Title: Propensity Score Analysis Graphics
+Authors@R: c(
+    person(given = "James",
+           family = "Helmreich", 
+           middle = "E",
+           email = "James.Helmreich@Marist.edu",
+           role = "aut"),
+    person(given = "Robert",
+           family = "Pruzek",
+           middle = "M",
+           email = "", 
+           role = "aut"),
+    person(given = "Jason",
+           family = "Bryer",
+           middle = "M", 
+           email = "jason@bryer.org",
+           role = c("ctb", "cre"),
+           comment = c(ORCID = "0000-0002-2454-0402")),
+    person(given = "KuangNan",
+           family = "Xiong",
+           role = 'ctb')
+        )
+Maintainer: Jason Bryer <jason@bryer.org>
+Depends: R (>= 2.14.0), rpart
+Description: A collection of functions that primarily produce graphics
+        to aid in a Propensity Score Analysis (PSA).  Functions
+        include: cat.psa and box.psa to test balance within strata of
+        categorical and quantitative covariates, circ.psa for a
+        representation of the estimated effect size by stratum,
+        loess.psa that provides a graphic and loess based effect size
+        estimate, and various balance functions that provide measures
+        of the balance achieved via a PSA in a categorical covariate.
+URL: https://github.com/jbryer/PSAgraphics/
+BugReports: https://github.com/jbryer/PSAgraphics/issues
+License: GPL (>= 2)
+RoxygenNote: 7.2.0
+Encoding: UTF-8

@@ -1,0 +1,24 @@
+citHeader("To cite PSAgraphics in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{PSAgraphics}: An {R} Package to Support Propensity Score Analysis",
+  author       = personList(as.person("James E. Helmreich"),
+                   as.person("Robert M. Pruzek")),
+  journal      = "Journal of Statistical Software",
+  year         = "2009",
+  volume       = "29",
+  number       = "6",
+  pages        = "1--23",
+  url          = "http://www.jstatsoft.org/v29/i06/",
+
+  textVersion  =
+  paste("James E. Helmreich, Robert M. Pruzek (2009).",
+        "PSAgraphics: An R Package to Support Propensity Score Analysis.",
+        "Journal of Statistical Software 29(6), 1-23.",
+        "URL http://www.jstatsoft.org/v29/i06/.",
+        "We are grateful to KuangNan Xiong for significant 
+        work on the functions new to version 2.0: 
+        cstrata.psa, cv.bal.psa, and cv.trans.psa."
+)
+)
+
