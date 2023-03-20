@@ -84,6 +84,7 @@
 #' cat.psa(ves1proc, abcix, lindner.tree, xlab = "ves1proc")
 #'
 #' @export cat.psa
+#' @importFrom rpart rpart
 cat.psa <- function(categorical,
                     treatment = NULL,
                     strata = NULL,

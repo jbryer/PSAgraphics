@@ -39,10 +39,6 @@ cv <- rnorm(20)
 X <- data.frame(f2, f4, cv)
 cv.trans.psa(X)
 
-
-
-
-
 }
 \seealso{
 \code{\link{cv.bal.psa}}, \code{\link{loess.psa}},
@@ -55,5 +51,3 @@ Robert M. Pruzek \email{RMPruzek@yahoo.com}
 
 KuangNan Xiong \email{harryxkn@yahoo.com}
 }
-\keyword{~kwd1}
-\keyword{~kwd2}

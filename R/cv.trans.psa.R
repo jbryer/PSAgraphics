@@ -20,7 +20,6 @@
 #' KuangNan Xiong \email{harryxkn@@yahoo.com}
 #' @seealso \code{\link{cv.bal.psa}}, \code{\link{loess.psa}},
 #' \code{\link{cstrata.psa}}, \code{\link{cv.trans.psa}}
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #'
 #' #Note reordering of columns, binary factor and numeric column are unchanged.
@@ -35,10 +34,6 @@
 #' cv <- rnorm(20)
 #' X <- data.frame(f2, f4, cv)
 #' cv.trans.psa(X)
-#'
-#'
-#'
-#'
 #'
 #' @export cv.trans.psa
 cv.trans.psa <- function(covariates, fcol = NULL) {

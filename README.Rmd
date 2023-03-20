@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -13,12 +15,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-# PSAgraphics
+# PSAgraphics: An R Package to Support Propensity Score Analysis
 
 <!-- badges: start -->
-[![CRAN Version](https://www.r-pkg.org/badges/version/PSAgraphics)](https://cran.r-project.org/package=PSAgraphics)
-![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PSAgraphics)
-![Project Status: WIP – Active](https://www.repostatus.org/badges/latest/active.svg)
+![R-CMD-check](https://github.com/jbryer/PSAgraphics/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jbryer/PSAgraphics/actions/workflows/R-CMD-check.yaml)
+`r badger::badge_devel("jbryer/PSAgraphics", "blue")`
+`r badger::badge_cran_release("PSAgraphics")`
+`r badger::badge_cran_checks("PSAgraphics")`
 <!-- badges: end -->
 
 A collection of functions that primarily produce graphics to aid in a Propensity Score Analysis (PSA). Functions include: cat.psa and box.psa to test balance within strata of categorical and quantitative covariates, circ.psa for a representation of the estimated effect size by stratum, loess.psa that provides a graphic and loess based effect size estimate, and various balance functions that provide measures of the balance achieved via a PSA in a categorical covariate.
