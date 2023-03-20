@@ -31,6 +31,9 @@ identity diagonal."><!-- mathjax --><script src="https://cdnjs.cloudflare.com/aj
       <ul class="nav navbar-nav"><li>
   <a href="../reference/index.html">Reference</a>
 </li>
+<li>
+  <a href="../news/index.html">Changelog</a>
+</li>
       </ul><ul class="nav navbar-nav navbar-right"><li>
   <a href="https://github.com/jbryer/PSAgraphics/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
@@ -255,34 +258,34 @@ become less trustworthy as larger values of the trim argument are used).</p>
 <span class="r-in"><span><span class="fu">circ.psa</span><span class="op">(</span><span class="va">response</span>, <span class="va">treatment</span>, <span class="va">strata</span><span class="op">)</span></span></span>
 <span class="r-plt img"><img src="circ.psa-1.png" alt="" width="700" height="433"></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $summary.strata</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   n.0 n.1     means.0      means.1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1  98  83  0.04200558  0.171885060</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  85  89 -0.10627503  0.068534321</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3  88  71  0.06643898 -0.151100085</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4  73  89  0.05125763  0.035711890</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5  85  87  0.04330224  0.009272025</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6  76  76 -0.07995448 -0.063859451</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   n.0 n.1     means.0     means.1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  77  90 -0.01466845 -0.04442946</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  78  79 -0.06780324  0.26734417</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  76  71 -0.17498127 -0.09495994</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  96  84  0.13134217  0.02157962</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  78  88 -0.12419976 -0.02102184</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6 101  82  0.10996109 -0.10266861</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.003273593</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -0.01566968</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.01668473</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.002200555</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ATE</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.01341114</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.01787023</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $se.wtd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.06547395</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.06627795</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $approx.t</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.2048317</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.2696256</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $df</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 988</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $CI.95</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -0.1150729  0.1418951</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -0.1121915  0.1479319</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co">##Random data with effect size -.2</span></span></span>
@@ -293,33 +296,33 @@ become less trustworthy as larger values of the trim argument are used).</p>
 <span class="r-in"><span><span class="fu">circ.psa</span><span class="op">(</span><span class="va">aaa</span><span class="op">)</span></span></span>
 <span class="r-plt img"><img src="circ.psa-2.png" alt="" width="700" height="433"></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $summary.strata</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   n.0 n.1    means.0  means.1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1  72 119 -0.9877573 5.965571</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  96  87  0.6069716 4.408279</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3 116 107 -0.7927841 6.202938</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4 101 103  0.1344177 6.010331</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5 115  84  1.5934214 7.738231</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   n.0 n.1     means.0  means.1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 109  92  0.06061073 6.429138</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2 107  95  2.05044543 7.307719</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  95 100 -0.51496035 6.621817</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4 102  92 -0.83491088 5.783739</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  87 121  0.04153935 5.877122</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.09013536</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.1726229</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6.09541</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6.404157</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ATE</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6.005274</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 6.231534</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $se.wtd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.7527864</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.7560071</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $approx.t</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 7.977395</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 8.242693</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $df</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 990</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $CI.95</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4.528034 7.482515</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 4.747974 7.715095</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co">##Random data with effect size -2</span></span></span>
@@ -330,32 +333,32 @@ become less trustworthy as larger values of the trim argument are used).</p>
 <span class="r-plt img"><img src="circ.psa-3.png" alt="" width="700" height="433"></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $summary.strata</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   n.A n.B  means.A  means.B</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> U  24  23 19.56855 18.16847</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> V  26  20 19.87556 18.93863</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> X  19  22 20.11813 18.05006</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Y  16  15 20.70879 18.17513</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Z  15  20 20.53850 17.78929</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> U  23  17 20.37282 19.12245</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> V  25  22 20.65343 17.81284</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> X  17  30 19.76624 17.87898</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Y  18  19 19.72954 17.57975</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Z  17  12 19.59112 17.94277</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.A</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 20.09831</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 20.06386</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $wtd.Mn.B</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 18.25601</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 18.06602</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ATE</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -1.842296</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -1.997841</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $se.wtd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.3765696</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.3231541</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $approx.t</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -4.892311</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -6.182318</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $df</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 190</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $CI.95</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -2.585090 -1.099502</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -2.635272 -1.360411</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co">##Tree derived strata</span></span></span>
