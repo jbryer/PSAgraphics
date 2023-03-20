@@ -12,19 +12,22 @@
 checks](https://badges.cranchecks.info/summary/PSAgraphics.svg)](https://cran.r-project.org/web/checks/check_results_PSAgraphics.html)
 <!-- badges: end -->
 
+**Contact**: Jason Bryer, Ph.D. <jason@bryer.org>  
+**Website**: <https://jbryer.github.io/PSAgraphics/>
+
 A collection of functions that primarily produce graphics to aid in a
-Propensity Score Analysis (PSA). Functions include: cat.psa and box.psa
-to test balance within strata of categorical and quantitative
-covariates, circ.psa for a representation of the estimated effect size
-by stratum, loess.psa that provides a graphic and loess based effect
+Propensity Score Analysis (PSA). Functions include: `cat.psa` and
+`box.psa` to test balance within strata of categorical and quantitative
+covariates, `circ.psa` for a representation of the estimated effect size
+by stratum, `loess.psa` that provides a graphic and Loess based effect
 size estimate, and various balance functions that provide measures of
 the balance achieved via a PSA in a categorical covariate.
 
 For more information, see and cite:
 
 Helmreich, J. E., & Pruzek, R. M. (2009). PSAgraphics: An R Package to
-Support Propensity Score Analysis. Journal of Statistical Software,
-29(6), 1–23. <https://doi.org/10.18637/jss.v029.i06>
+Support Propensity Score Analysis. *Journal of Statistical Software,
+29*(6), 1–23. <https://doi.org/10.18637/jss.v029.i06>
 
 ## Installation
 
