@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# PSAgraphics: An R Package to Support Propensity Score Analysis
+# <img src="man/figures/PSAgraphics.png" align="right" width="120" align="right" /> PSAgraphics: An R Package to Support Propensity Score Analysis
 
 <!-- badges: start -->
 
