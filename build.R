@@ -8,6 +8,8 @@ devtools::install()
 devtools::check(cran = TRUE)
 
 
+devtools::release()
+
 # Convert to roxygen2 and Github for maintaining the package
 # Rd2roxygen::Rd2roxygen(getwd())
 

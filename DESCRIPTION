@@ -19,7 +19,7 @@ Description: A collection of functions that primarily produce graphics to
     that provide measures of the balance achieved via a PSA in a
     categorical covariate.
 License: GPL (>= 2)
-URL: https://github.com/jbryer/PSAgraphics/
+URL: https://jbryer.github.io/PSAgraphics/
 BugReports: https://github.com/jbryer/PSAgraphics/issues
 Depends: 
     R (>= 2.14.0),
