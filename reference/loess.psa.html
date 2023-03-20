@@ -239,19 +239,19 @@ effect size noted above.</p></dd>
 <span class="r-in"><span><span class="fu">loess.psa</span><span class="op">(</span><span class="va">a</span>, span <span class="op">=</span> <span class="fl">.15</span>, degree <span class="op">=</span> <span class="fl">1</span>, int <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">.33</span>, <span class="fl">.67</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-plt img"><img src="loess.psa-1.png" alt="" width="700" height="433"></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ATE</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1.0733</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.955845</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $se.wtd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.0428952</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.04246805</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $CI95</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.9875095 1.1590903</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.8709089 1.0407812</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $summary.strata</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   counts.0 counts.1     means.0  means.1 diff.means</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1       98       98 -0.05287655 1.081601   1.134478</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2      104      104  1.04008221 2.019019   0.978937</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3       98       98  1.95019935 3.062462   1.112262</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   counts.0 counts.1   means.0  means.1 diff.means</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1       98       98 0.1047246 1.039857  0.9351324</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2      104      104 1.0366691 1.953104  0.9164353</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3       98       98 1.9853078 3.003688  1.0183803</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span></span></span>
@@ -267,26 +267,26 @@ effect size noted above.</p></dd>
 <span class="r-in"><span><span class="fu">loess.psa</span><span class="op">(</span><span class="va">a</span>, span<span class="op">=</span><span class="fl">.5</span>, cex <span class="op">=</span> <span class="fl">.6</span><span class="op">)</span></span></span>
 <span class="r-plt img"><img src="loess.psa-2.png" alt="" width="700" height="433"></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ATE</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2.532093</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2.650483</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $se.wtd</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.06817575</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.07007087</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $CI95</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2.395742 2.668445</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 2.510341 2.790624</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $summary.strata</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    counts.0 counts.1    means.0      means.1 diff.means</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1         8      192 -3.8223352  1.881367126  5.7037024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2        41      159 -2.6378012  0.606791720  3.2445930</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3        90      110 -1.8742198  0.105291082  1.9795109</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4       100      100 -1.1394578 -0.003818755  1.1356390</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5        98      102 -0.4932621  0.127812458  0.6210746</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6        96      104 -0.1492005  0.568058141  0.7172586</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7        97      103 -0.0515257  1.204424906  1.2559506</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8       121       79 -0.1294953  1.820024938  1.9495202</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9       155       45 -0.5618361  2.673102365  3.2349384</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10      194        6 -1.9952130  3.483533705  5.4787467</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    counts.0 counts.1    means.0    means.1 diff.means</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1         8      192 -3.7185846 1.89579470  5.6143793</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2        46      154 -2.5930980 0.60948207  3.2025800</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3        88      112 -1.8349173 0.13634876  1.9712660</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4        96      104 -1.2211833 0.07392761  1.2951109</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5        99      101 -0.6261748 0.17782611  0.8040009</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6        90      110 -0.2949561 0.53884152  0.8337976</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7       110       90 -0.1523723 1.16823438  1.3206067</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8       119       81 -0.1826125 1.92856257  2.1111751</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9       149       51 -0.6553410 2.88359360  3.5389347</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10      195        5 -1.8217931 3.99118279  5.8129759</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co">#Using strata of possible interest as determined by loess lines.</span></span></span>

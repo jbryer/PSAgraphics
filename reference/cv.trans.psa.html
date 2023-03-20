@@ -101,27 +101,27 @@ covariate dataframe stays unchanged.</p>
 <span class="r-in"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="va">f2</span>, <span class="va">f4</span>, <span class="va">cv</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">cv.trans.psa</span><span class="op">(</span><span class="va">X</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $covariates.transformed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>             cv f2_1 f4_a f4_b f4_c f4_d</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1  -0.04538302    0    0    0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2   1.04134126    0    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3   1.61007126    0    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4   1.30419621    0    0    0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5  -1.34103192    0    0    0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6   1.49057966    1    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7   0.82953461    1    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8   0.43225400    1    0    0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9   0.03175772    0    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10  0.66064273    0    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11  1.02643772    0    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12  0.90520351    0    0    0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13  0.88627777    1    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14 -0.35858658    1    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15 -0.95708725    1    0    0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16 -0.92133323    0    0    0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17 -0.70844797    1    1    0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18 -0.57780386    0    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19  1.24743467    0    0    1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20  0.41532862    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>            cv f2_1 f4_a f4_b f4_c f4_d</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1   0.4514370    1    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  -1.4066376    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  -0.6806334    1    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  -1.3281880    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5  -0.4747508    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6   2.0888663    0    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7  -0.6746678    1    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8   1.4629214    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9   0.4029057    0    0    0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 -0.3496741    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11 -0.7074679    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12  0.1749001    1    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13 -0.5746299    1    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 -0.4535362    1    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15  1.3379546    1    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16  0.1448380    0    0    0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17  1.3095653    0    0    0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18 -1.3924816    1    0    1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19  1.4544919    0    1    0    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20 -1.0379624    1    0    0    0    1</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span><span class="co">#</span></span></span>
 <span class="r-in"><span><span class="va">f2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/factor.html" class="external-link">factor</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sample.html" class="external-link">sample</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'c'</span>, <span class="st">'C'</span><span class="op">)</span>, <span class="fl">20</span>, replace <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span></span></span>
@@ -130,27 +130,27 @@ covariate dataframe stays unchanged.</p>
 <span class="r-in"><span><span class="va">X</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="va">f2</span>, <span class="va">f4</span>, <span class="va">cv</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu">cv.trans.psa</span><span class="op">(</span><span class="va">X</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $covariates.transformed</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>            cv f2_c f4_A f4_CC f4_b f4_d</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1   2.2130068    0    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  -0.8360782    0    0     1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3   0.6987299    0    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4   1.2641251    0    1     0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5  -0.7966223    0    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6  -0.6834253    0    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7  -0.8943760    0    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8   0.4725990    0    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9   0.3074621    1    1     0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10  1.4759492    0    0     1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11 -0.2078891    0    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12 -1.0720850    1    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13 -1.4122359    0    1     0    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14  0.9848261    1    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15 -0.4676733    1    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16 -1.5671433    1    0     0    1    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17  1.7130666    0    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18  0.1605204    1    0     1    0    0</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19  1.0655456    1    0     0    0    1</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20 -0.2103469    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             cv f2_c f4_A f4_CC f4_b f4_d</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1  -0.55680998    1    1     0    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  -2.08957692    0    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3  -0.28344600    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4  -0.83432886    1    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5   1.41473698    0    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6   0.67148662    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7   0.46811123    1    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 8  -0.98007684    1    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 9   0.63178831    1    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 10 -1.24863371    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 11  2.19618988    0    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 12  0.51635363    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 13  0.28581479    0    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 14 -1.03485942    0    0     1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 15 -0.56462014    1    0     1    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 16  0.82730032    0    0     0    0    1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 17 -1.73461229    0    1     0    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 18 -0.01639671    0    1     0    0    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 19 -0.44392388    1    0     0    1    0</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 20  0.14975777    0    0     1    0    0</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
