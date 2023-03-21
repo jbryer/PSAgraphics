@@ -3,3 +3,5 @@
 build.R
 ^README\.Rmd$
 ^\.github$
+^CRAN-SUBMISSION$
+cran-comments.md

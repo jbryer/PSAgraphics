@@ -10,6 +10,8 @@ devtools::check(cran = TRUE)
 
 devtools::release()
 
+citation(package = 'PSAgraphics')
+
 # Convert to roxygen2 and Github for maintaining the package
 # Rd2roxygen::Rd2roxygen(getwd())
 
