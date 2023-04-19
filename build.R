@@ -6,7 +6,8 @@ usethis::use_tidy_description()
 devtools::document()
 devtools::install()
 devtools::check(cran = TRUE)
-
+devtools::check_win_devel()
+devtools::check_rhub()
 
 devtools::release()
 

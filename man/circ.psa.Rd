@@ -21,7 +21,8 @@ circ.psa(
   labcex = 1,
   xlab = NULL,
   ylab = NULL,
-  main = NULL
+  main = NULL,
+  mai = c(1, 1.7, 1, 1.7)
 )
 }
 \arguments{
@@ -86,6 +87,8 @@ circle labels.}
 \item{ylab}{Label for vertical axis, by default taken from \code{treatment}.}
 
 \item{main}{Main label for graph.}
+
+\item{mai}{margin parameters.}
 }
 \value{
 Generate a Propensity Assessment Plot, as well as numerical data for

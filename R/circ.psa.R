@@ -72,6 +72,7 @@
 #' \code{treatment}.
 #' @param ylab Label for vertical axis, by default taken from \code{treatment}.
 #' @param main Main label for graph.
+#' @param mai margin parameters.
 #' @return Generate a Propensity Assessment Plot, as well as numerical data for
 #' \item{summary.strata}{An array with rows corresponding to strata and four
 #' columns; these show counts for control and treatment groups, as well as
@@ -144,7 +145,8 @@ circ.psa <- function(response,
                      labcex = 1,
                      xlab = NULL,
                      ylab = NULL,
-                     main = NULL) {
+                     main = NULL,
+                     mai = c(1, 1.7, 1, 1.7)) {
    # Given 'treatment' (0=Control, 1=Treatment), function calculates 'statistic'
    # for response within strata and treatment levels. Within strata, 'statistic' is
    # plotted as circles centered at (X,Y) = (C-stat,T-stat). The radii of the circles correspond to
@@ -176,7 +178,7 @@ circ.psa <- function(response,
    #Setting margins, forcing square plot to aid interpretations (saving current settings; restore settings at end).
    op <- par(no.readonly = TRUE)
    on.exit(par(op))
-   par(mai = c(1, 1.7, 1, 1.7), pty = "s")
+   par(mai = mai, pty = "s")
 
    #If "response" has three columns, treat as r, t, s.
    if (dim(as.data.frame(response))[2] == 3) {
