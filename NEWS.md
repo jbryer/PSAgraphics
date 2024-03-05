@@ -1,3 +1,7 @@
+# PSAgraphics 2.1.3
+
+* Minor update to fix CRAN notes.
+
 # PSAgraphics 2.1.2
 
 * Maintainer has been updated.

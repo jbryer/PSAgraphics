@@ -46,7 +46,7 @@ NULL
 
 
 
-#' Graphical Analysis of Variance
+#' Graphical Analysis of Propensity Score Analysis
 #'
 #' A collection of functions that primarily produce graphics to aid in a
 #' Propensity Score Analysis (PSA).  Functions include: cat.psa and box.psa to
@@ -59,8 +59,8 @@ NULL
 #' \tabular{ll}{ Package: \tab PSAgraphics\cr Version: \tab 2.0\cr License:
 #' \tab GPL (>= 2)\cr }
 #'
-#' @name granova-package
-#' @aliases PSAgraphics-package PSAgraphics
+#' @name PSAgraphics-package
+#' @aliases PSAgraphics-package
 #' @docType package
 #' @author James E. Helmreich <James.Helmreich@@Marist.edu> and Robert M. Pruzek <RMPruzek@@yahoo.com>
 #'
@@ -128,8 +128,8 @@ NULL
 #' \tabular{ll}{ Package: \tab PSAgraphics\cr Version: \tab 2.0\cr License:
 #' \tab GPL (>= 2)\cr }
 #'
-#' @name granova-package
-#' @aliases PSAgraphics-package PSAgraphics
+#' @name PSAgraphics-package
+#' @aliases PSAgraphics-package
 #' @docType package
 #' @author James E. Helmreich <James.Helmreich@@Marist.edu> and
 #'

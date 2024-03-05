@@ -1,7 +1,7 @@
 Package: PSAgraphics
 Title: Propensity Score Analysis Graphics
-Version: 2.1.2
-Date: 2023-03-20
+Version: 2.1.3
+Date: 2024-03-05
 Authors@R: c(
     person("James", "Helmreich", , "James.Helmreich@Marist.edu", role = "aut"),
     person("Robert", "Pruzek", role = "aut"),
@@ -24,9 +24,9 @@ BugReports: https://github.com/jbryer/PSAgraphics/issues
 Depends: 
     R (>= 2.14.0),
     rpart
-Encoding: UTF-8
-RoxygenNote: 7.2.3
 Imports: 
     graphics,
     grDevices,
     stats
+Encoding: UTF-8
+RoxygenNote: 7.2.3
